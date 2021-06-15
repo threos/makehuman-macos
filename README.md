@@ -40,6 +40,12 @@ If you rather run the code from source:
   * compile\_models.py
   * compile\_proxies.py
   * compile\_targets.py
+
+On macOS, you may need to use modified OpenGL wrapper as Apple dropped official OpenGL support. To do this:
+
+* Download OpenGL wrapper from http://download.tuxfamily.org/makehuman/build/macos-opengl-wrapper.zip
+* Extract 'OpenGL' to project root
+
  
 ### Installing python dependencies
 You should be able to start the command "pip" by opening a console prompt ("run" -> "cmd.exe") and writing "pip". If not, 
